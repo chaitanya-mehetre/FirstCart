@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://firstcart-16c6.onrender.com/api/:path*"
+    },
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
